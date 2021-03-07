@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.9'
+}
+
+group 'org.zero'
+version '1.0v'
+
+sourceCompatibility = 1.8
+javafx {
+    version = '15'
+    modules = ['javafx.controls']
+}
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile files('src\\main\\resources\\localLib\\switchButtonFx.jar')
+    implementation group: 'org.controlsfx', name: 'controlsfx', version: '11.1.0'
+}
+
+mainClassName = 'gui.TicTacToe'

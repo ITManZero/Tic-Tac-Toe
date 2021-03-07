@@ -1,0 +1,140 @@
+.button:hover {
+    -fx-background-color: #333333;
+    -fx-background-radius: 5px;
+    -fx-text-fill: white;
+    -fx-border-color:#333333;
+    -fx-border-width: 1;
+}
+
+.button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 5px;
+    -fx-text-fill: gray;
+    -fx-border-color:#333333;
+    -fx-border-width: 1;
+}
+
+.radio-button .radio:selected {
+    -fx-text-fill: gray;
+}
+
+.radio-button:selected {
+    -fx-text-fill: gray;
+}
+
+#root{
+-fx-background-color: black;
+}
+
+#cellStackPane{
+-fx-background-color: black;
+-fx-max-width:200;
+-fx-min-width:200;
+-fx-min-height:200;
+-fx-min-height:200;
+}
+
+#centerGridPane{
+
+-fx-background-color: white;
+}
+
+#leftVBox{
+
+-fx-max-width:150;
+-fx-min-width:150;
+}
+
+#rightVBox{
+
+-fx-max-width:150;
+-fx-min-width:150;
+}
+
+#bottomVBox{
+-fx-min-height:150;
+-fx-max-height:150;
+}
+
+#scoreBox{
+-fx-min-height:150;
+-fx-max-height:150;
+}
+
+#scoreBoxLabel{
+-fx-font-style:normal;
+-fx-font-weight:700;
+-fx-font-size: 30px;
+-fx-text-fill: white;
+}
+
+#scoreBoxVBoxl{
+-fx-padding:25 0 0 270;
+}
+
+#scoreBoxVBox2{
+-fx-padding:25 0 0 40;
+}
+
+#scoreBoxVBox3{
+-fx-padding:25 0 0 40;
+}
+
+.switch-button .background{
+-fx-border-radius:0px;
+-fx-border-width:3px;
+-fx-border-color:#474747;
+-fx-background-color:#141414;
+
+}
+
+.switch-button:selected .background{
+-fx-border-radius:0px;
+-fx-border-width:3px;
+-fx-border-color:#013220;
+-fx-background-color:#141414;
+}
+
+.switch-button .shape{
+-fx-stroke:gray;
+-fx-stroke-type:inside;
+-fx-stroke-width:2px;
+-fx-fill:transparent;
+}
+
+ .switch-button:hover .background{
+-fx-border-radius:0px;
+-fx-border-width:3px;
+-fx-border-color:#5c5c5c;
+-fx-background-color:#141414;
+ }
+
+.switch-button:hover:selected  .background{
+ -fx-border-radius:0px;
+ -fx-border-width:3px;
+ -fx-border-color:#01452c;
+ -fx-background-color:#141414;
+  }
+
+.switch-button:selected .shape{
+-fx-stroke:gray;
+-fx-stroke-type:inside;
+-fx-stroke-width:2px;
+-fx-fill:#01452c;
+}
+
+#aiText{
+-fx-padding:4 0 0 12;
+-fx-text-fill:white;
+-fx-font-style:normal;
+-fx-font-weight:700;
+-fx-font-size: 13px;
+}
+
+#multiPlayerText{
+-fx-font-style:normal;
+-fx-font-weight:700;
+-fx-font-size: 13px;
+-fx-text-fill: white;
+-fx-padding:4 12 0 30;
+}
