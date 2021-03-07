@@ -1,5 +1,6 @@
 package gui;
 
+import javafx.geometry.Insets;
 import javafx.scene.control.*;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
@@ -20,6 +21,7 @@ public class SetupBox extends HBox {
         Label multiPlayerText = new Label("MultiPlayer");
         multiPlayerText.setId("multiPlayerText");
         this.getChildren().addAll(undoButton, multiPlayerText, switchButton, aiText);
+        this.setPadding(new Insets(40,0,0,50));
         this.setId("setupBox");
     }
 
