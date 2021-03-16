@@ -7,11 +7,13 @@ plugins {
 group 'org.zero'
 version '1.0v'
 
-sourceCompatibility = 1.8
+sourceCompatibility = 11
+
 javafx {
     version = '15'
     modules = ['javafx.controls']
 }
+
 repositories {
     mavenCentral()
 }
@@ -21,5 +23,6 @@ dependencies {
     compile files('src\\main\\resources\\localLib\\switchButtonFx.jar')
     implementation group: 'org.controlsfx', name: 'controlsfx', version: '11.1.0'
 }
+
 
 mainClassName = 'gui.TicTacToe'
